@@ -9,11 +9,7 @@ body {
 }
 
 .wrapper {
-  /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-  background: #000;
+  background: #eee;
   margin: 20px auto;
   max-width: 400px;
   font-weight: bold;
@@ -22,7 +18,7 @@ body {
 }
 
 .output {
-  background: #000807;
+  background: #858693;
   padding: 40px;
   text-align: right;
   font-size: 30px;
@@ -31,7 +27,7 @@ body {
 .keys {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1px;
+  gap: 2px;
 }
 
 .keys > div {
@@ -41,8 +37,7 @@ body {
 }
 
 .keys > div:active {
-  background: #000;
-  padding: 10px;
+  background: #c0c0c0;
 }
 
 .ac,
@@ -60,17 +55,18 @@ body {
 .zero,
 .dot,
 .equal {
-  background: #071418;
+  background: #e0e0e0;
+  color: #000;
 }
 
 .division,
 .multiply,
 .minus,
 .plus {
-  background: #105057;
+  background: #f5913e;
+  color: #000;
 }
 
 .zero {
   grid-column-start: span 2;
-  background: #239d91;
 }

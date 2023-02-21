@@ -10,11 +10,11 @@ const Calculator = () => (
       <div className="ac">AC</div>
       <div className="plus-minus">+/-</div>
       <div className="percent">%</div>
-      <div className="division">/</div>
+      <div className="division">&divide;</div>
       <div className="seven">7</div>
       <div className="eight">8</div>
       <div className="nine">9</div>
-      <div className="multiply">*</div>
+      <div className="multiply">&times;</div>
       <div className="four">4</div>
       <div className="five">5</div>
       <div className="six">6</div>
