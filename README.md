@@ -1,8 +1,8 @@
 <a name="readme-top"></a>
 
 <div align="center">
-   <h1><b>Math Magicians</b></h1>
-  <!-- <img src="./src/assets/readme_img.png" alt="Awesome Meals image" width="100%" /> -->
+   <h1><b>Calculator</b></h1>
+  <!-- <img src="./src/assets/readme_img.png" alt="calculator image" width="100%" /> -->
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -31,9 +31,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Math Magicians <a name="about-project"></a>
+# 📖 Calculator <a name="about-project"></a>
 
-**Math Magicians** is a webapp built using React.
+**Calculator react** is a webapp built using React.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -70,7 +70,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Math Magicians is currently on construction so it does not have features yet.**
+- **Calculator is currently on construction so it does not have features yet.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,7 +78,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Not Available](https://jmonto55.github.io/ToDoList/dist/)
+- [under_construction](under_construction)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,6 +91,7 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
+
 - A working computer.
 - Connection to internet.
 
@@ -99,16 +100,18 @@ In order to run this project you need:
 To get a local copy up and running follow these simple example steps.
 
 Clone this repository in the desired folder:
+
 ```
 cd my-folder
-git clone https://github.com/jmonto55/Math-magicians.git
+git clone https://github.com/JakariaJishan/calculator-react.git
 ```
 
 ### Install
 
 To install this project:
+
 ```
-cd Math-magicians
+cd calculator-react
 code .
 npm install
 ```
@@ -127,10 +130,9 @@ npm start
 
 ## 👥 Authors <a name="authors"></a>
 
+👤 **Jakaria jishan**
 
-👤 **Jose Montoya**
-
-- GitHub: [@jmonto55](https://github.com/jmonto55)
+- GitHub: [@jakaria](https://github.com/JakariaJishan)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -189,6 +191,5 @@ I would like to thank Microverse for the information provided to build this proj
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
