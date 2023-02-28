@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 .calculator {
   display: flex;
   justify-content: space-between;
@@ -14,7 +13,7 @@
 }
 
 .calc-heading {
-  color: #888888;
+  color: #888;
 }
 
 .wrapper {
@@ -37,13 +36,13 @@
   gap: 2px;
 }
 
-.keys>div {
+.keys > div {
   padding: 30px;
   text-align: center;
   cursor: pointer;
 }
 
-.keys>div:active {
+.keys > div:active {
   background: #c0c0c0;
 }
 
