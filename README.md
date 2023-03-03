@@ -78,7 +78,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [under_construction](under_construction)
+- [Live Link](https://react-calculator-n9d5.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
