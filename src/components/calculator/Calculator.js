@@ -30,177 +30,196 @@ const Calculator = () => {
           )}
         </div>
         <div className="keys">
-          <div
+          <button
             className="ac"
             name="AC"
             onClick={clickHandler}
             onKeyDown={clickHandler}
             aria-hidden="true"
+            type="button"
           >
             AC
-          </div>
-          <div
+          </button>
+          <button
             className="plus-minus"
             name="+/-"
             onClick={clickHandler}
             onKeyDown={clickHandler}
             aria-hidden="true"
+            type="button"
           >
             +/-
-          </div>
-          <div
+          </button>
+          <button
             className="percent"
             name="%"
             onClick={clickHandler}
             onKeyDown={clickHandler}
             aria-hidden="true"
+            type="button"
           >
             %
-          </div>
-          <div
+          </button>
+          <button
             className="division"
             name="÷"
             onClick={clickHandler}
             onKeyDown={clickHandler}
             aria-hidden="true"
+            type="button"
           >
             ÷
-          </div>
-          <div
+          </button>
+          <button
             className="seven"
             name="7"
             onClick={clickHandler}
             onKeyDown={clickHandler}
             aria-hidden="true"
+            type="button"
           >
             7
-          </div>
-          <div
+          </button>
+          <button
             className="eight"
             name="8"
             onClick={clickHandler}
             onKeyDown={clickHandler}
             aria-hidden="true"
+            type="button"
           >
             8
-          </div>
-          <div
+          </button>
+          <button
             className="nine"
             name="9"
             onClick={clickHandler}
             onKeyDown={clickHandler}
             aria-hidden="true"
+            type="button"
           >
             9
-          </div>
-          <div
+          </button>
+          <button
             className="multiply"
             name="x"
             onClick={clickHandler}
             onKeyDown={clickHandler}
             aria-hidden="true"
+            type="button"
           >
             x
-          </div>
-          <div
+          </button>
+          <button
             className="four"
             name="4"
             onClick={clickHandler}
             onKeyDown={clickHandler}
             aria-hidden="true"
+            type="button"
           >
             4
-          </div>
-          <div
+          </button>
+          <button
             className="five"
             name="5"
             onClick={clickHandler}
             onKeyDown={clickHandler}
             aria-hidden="true"
+            type="button"
           >
             5
-          </div>
-          <div
+          </button>
+          <button
             className="six"
             name="6"
             onClick={clickHandler}
             onKeyDown={clickHandler}
             aria-hidden="true"
+            type="button"
           >
             6
-          </div>
-          <div
+          </button>
+          <button
             className="minus"
             name="-"
             onClick={clickHandler}
             onKeyDown={clickHandler}
             aria-hidden="true"
+            type="button"
           >
             -
-          </div>
-          <div
+          </button>
+          <button
             className="one"
             name="1"
             onClick={clickHandler}
             onKeyDown={clickHandler}
             aria-hidden="true"
+            type="button"
           >
             1
-          </div>
-          <div
+          </button>
+          <button
             className="two"
             name="2"
             onClick={clickHandler}
             onKeyDown={clickHandler}
             aria-hidden="true"
+            type="button"
           >
             2
-          </div>
-          <div
+          </button>
+          <button
             className="three"
             name="3"
             onClick={clickHandler}
             onKeyDown={clickHandler}
             aria-hidden="true"
+            type="button"
           >
             3
-          </div>
-          <div
+          </button>
+          <button
             className="plus"
             name="+"
             onClick={clickHandler}
             onKeyDown={clickHandler}
             aria-hidden="true"
+            type="button"
           >
             +
-          </div>
-          <div
+          </button>
+          <button
             className="zero"
             name="0"
             onClick={clickHandler}
             onKeyDown={clickHandler}
             aria-hidden="true"
+            type="button"
           >
             0
-          </div>
-          <div
+          </button>
+          <button
             className="dot"
             name="."
             onClick={clickHandler}
             onKeyDown={clickHandler}
             aria-hidden="true"
+            type="button"
           >
             .
-          </div>
-          <div
+          </button>
+          <button
             className="equal"
             name="="
             onClick={clickHandler}
             onKeyDown={clickHandler}
             aria-hidden="true"
+            type="button"
           >
             =
-          </div>
+          </button>
         </div>
       </div>
     </div>
