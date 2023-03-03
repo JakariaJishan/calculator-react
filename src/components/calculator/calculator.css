@@ -36,14 +36,14 @@
   gap: 2px;
 }
 
-.keys>button {
+.keys > button {
   padding: 30px;
   text-align: center;
   border: none;
   cursor: pointer;
 }
 
-.keys>button:active {
+.keys > button:active {
   background: #c0c0c0;
 }
 
