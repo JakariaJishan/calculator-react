@@ -1,12 +1,18 @@
 import '@testing-library/jest-dom';
-import { render, screen } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import renderer from 'react-test-renderer';
 import Calculator from './Calculator';
 
 describe('Calculator page testing', () => {
   it('snapshot matching', () => {
-    const tree = renderer.create(<BrowserRouter><Calculator /></BrowserRouter>).toJSON();
+    const tree = renderer
+      .create(
+        <BrowserRouter>
+          <Calculator />
+        </BrowserRouter>,
+      )
+      .toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -14,5 +20,12 @@ describe('Calculator page testing', () => {
     render(<Calculator />);
     const calcUi = screen.getByText('AC');
     expect(calcUi).toBeInTheDocument();
+  });
+
+  test('fireEvent', () => {
+    const { getByText } = render(<Calculator />);
+    const ac = getByText('AC');
+    fireEvent.click(ac);
+    expect(getByText('AC')).toBeTruthy();
   });
 });

@@ -20,177 +20,196 @@ exports[`Calculator page testing snapshot matching 1`] = `
     <div
       className="keys"
     >
-      <div
+      <button
         aria-hidden="true"
         className="ac"
         name="AC"
         onClick={[Function]}
         onKeyDown={[Function]}
+        type="button"
       >
         AC
-      </div>
-      <div
+      </button>
+      <button
         aria-hidden="true"
         className="plus-minus"
         name="+/-"
         onClick={[Function]}
         onKeyDown={[Function]}
+        type="button"
       >
         +/-
-      </div>
-      <div
+      </button>
+      <button
         aria-hidden="true"
         className="percent"
         name="%"
         onClick={[Function]}
         onKeyDown={[Function]}
+        type="button"
       >
         %
-      </div>
-      <div
+      </button>
+      <button
         aria-hidden="true"
         className="division"
         name="÷"
         onClick={[Function]}
         onKeyDown={[Function]}
+        type="button"
       >
         ÷
-      </div>
-      <div
+      </button>
+      <button
         aria-hidden="true"
         className="seven"
         name="7"
         onClick={[Function]}
         onKeyDown={[Function]}
+        type="button"
       >
         7
-      </div>
-      <div
+      </button>
+      <button
         aria-hidden="true"
         className="eight"
         name="8"
         onClick={[Function]}
         onKeyDown={[Function]}
+        type="button"
       >
         8
-      </div>
-      <div
+      </button>
+      <button
         aria-hidden="true"
         className="nine"
         name="9"
         onClick={[Function]}
         onKeyDown={[Function]}
+        type="button"
       >
         9
-      </div>
-      <div
+      </button>
+      <button
         aria-hidden="true"
         className="multiply"
         name="x"
         onClick={[Function]}
         onKeyDown={[Function]}
+        type="button"
       >
         x
-      </div>
-      <div
+      </button>
+      <button
         aria-hidden="true"
         className="four"
         name="4"
         onClick={[Function]}
         onKeyDown={[Function]}
+        type="button"
       >
         4
-      </div>
-      <div
+      </button>
+      <button
         aria-hidden="true"
         className="five"
         name="5"
         onClick={[Function]}
         onKeyDown={[Function]}
+        type="button"
       >
         5
-      </div>
-      <div
+      </button>
+      <button
         aria-hidden="true"
         className="six"
         name="6"
         onClick={[Function]}
         onKeyDown={[Function]}
+        type="button"
       >
         6
-      </div>
-      <div
+      </button>
+      <button
         aria-hidden="true"
         className="minus"
         name="-"
         onClick={[Function]}
         onKeyDown={[Function]}
+        type="button"
       >
         -
-      </div>
-      <div
+      </button>
+      <button
         aria-hidden="true"
         className="one"
         name="1"
         onClick={[Function]}
         onKeyDown={[Function]}
+        type="button"
       >
         1
-      </div>
-      <div
+      </button>
+      <button
         aria-hidden="true"
         className="two"
         name="2"
         onClick={[Function]}
         onKeyDown={[Function]}
+        type="button"
       >
         2
-      </div>
-      <div
+      </button>
+      <button
         aria-hidden="true"
         className="three"
         name="3"
         onClick={[Function]}
         onKeyDown={[Function]}
+        type="button"
       >
         3
-      </div>
-      <div
+      </button>
+      <button
         aria-hidden="true"
         className="plus"
         name="+"
         onClick={[Function]}
         onKeyDown={[Function]}
+        type="button"
       >
         +
-      </div>
-      <div
+      </button>
+      <button
         aria-hidden="true"
         className="zero"
         name="0"
         onClick={[Function]}
         onKeyDown={[Function]}
+        type="button"
       >
         0
-      </div>
-      <div
+      </button>
+      <button
         aria-hidden="true"
         className="dot"
         name="."
         onClick={[Function]}
         onKeyDown={[Function]}
+        type="button"
       >
         .
-      </div>
-      <div
+      </button>
+      <button
         aria-hidden="true"
         className="equal"
         name="="
         onClick={[Function]}
         onKeyDown={[Function]}
+        type="button"
       >
         =
-      </div>
+      </button>
     </div>
   </div>
 </div>
