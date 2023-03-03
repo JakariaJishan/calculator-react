@@ -28,4 +28,16 @@ describe('Calculator page testing', () => {
     fireEvent.click(ac);
     expect(getByText('AC')).toBeTruthy();
   });
+  test('click button', () => {
+    const { getByText } = render(<Calculator />);
+    const equal = getByText('=');
+    fireEvent.click(equal);
+    expect(equal).toBeTruthy();
+  });
+  test('click + button', () => {
+    const { getByText } = render(<Calculator />);
+    const sum = getByText('+');
+    fireEvent.click(sum);
+    expect(sum).toBeTruthy();
+  });
 });

@@ -1,14 +1,13 @@
-/*eslint-disable */
-import React, { useState } from "react";
-import calculate from "../../logic/calculate";
-import "./calculator.css";
+import React, { useState } from 'react';
+import calculate from '../../logic/calculate';
+import './calculator.css';
 
 const Calculator = () => {
   const [obj, setObj] = useState({
     total: 0,
   });
   const clickHandler = (e) => {
-    const name = e.target.getAttribute("name");
+    const name = e.target.getAttribute('name');
     setObj(calculate(obj, name));
   };
 
@@ -20,7 +19,11 @@ const Calculator = () => {
         <div className="output">
           {next || operation || total ? (
             <p>
-              {total} {operation} {next}
+              {total}
+              {' '}
+              {operation}
+              {' '}
+              {next}
             </p>
           ) : (
             0
