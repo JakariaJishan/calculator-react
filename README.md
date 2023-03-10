@@ -2,7 +2,7 @@
 
 <div align="center">
    <h1><b>Calculator</b></h1>
-  <!-- <img src="./src/assets/readme_img.png" alt="calculator image" width="100%" /> -->
+   <img src="https://user-images.githubusercontent.com/73704727/224336306-a4763762-ce63-403a-9a68-42934e1fcadd.png" alt="calculator image" width="100%" /> 
 </div>
 
 <!-- TABLE OF CONTENTS -->
